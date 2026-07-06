@@ -38,7 +38,7 @@
     renderLoading()
     try {
       // Unofficial public proxy for quick prototypes (no API key required)
-      const url = 'https://yt.lemnoslife.com/channels?part=statistics,snippet&forUsername=Pearlyirl'
+      const url = 'https://yt.lemnoslife.com/channels?part=statistics,snippet&id=UC6r3NOS_YLr3Q1CHtG7bvsA'
       const res = await fetch(url)
       if (!res.ok) throw new Error('status ' + res.status)
       const json = await res.json()
